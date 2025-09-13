@@ -1,23 +1,2 @@
-/* Simple, clean, responsive */
-:root { --maxw: 980px; --pad: 16px; --radius: 12px; }
-* { box-sizing: border-box; }
-html,body { margin:0; padding:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:#222; background:#fafafa; }
-a { color:#0a66c2; text-decoration:none; }
-a:hover { text-decoration:underline; }
-.container { max-width: var(--maxw); margin: 0 auto; padding: var(--pad); }
-header { background:linear-gradient(135deg,#e8f3ff,#f7fbff); border-bottom:1px solid #e6eef7; }
-nav { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
-.brand { font-weight:700; margin-right:auto; }
-nav a.cta { background:#0a66c2; color:#fff; padding:8px 12px; border-radius:10px; }
-.hero { padding:36px 0; display:grid; gap:14px; }
-.hero h1 { margin:0; font-size: clamp(1.6rem, 2.2vw + 1rem, 2.4rem); }
-.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:16px; }
-.card { background:#fff; border:1px solid #eaeaea; border-radius: var(--radius); padding:16px; }
-.badge { display:inline-block; border:1px solid #0a66c2; color:#0a66c2; border-radius:999px; padding:4px 10px; font-size:12px; }
-.section { padding: 20px 0; }
-footer { border-top:1px solid #eee; background:#fff; margin-top:20px; }
-.small { color:#666; font-size: 0.95rem; }
-.lang { margin-left:auto; }
-ul.check { list-style:none; padding-left:0; }
-ul.check li::before { content:"✔"; color:#2e7d32; margin-right:6px; }
-.alert { background:#fff7e6; border:1px solid #ffe2b3; padding:10px; border-radius:10px; }
+
+
